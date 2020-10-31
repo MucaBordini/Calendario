@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './features/login/Login';
+import User from './features/user/User';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Login />
+        <User />
       </header>
     </div>
   )
