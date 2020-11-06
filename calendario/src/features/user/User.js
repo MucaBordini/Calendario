@@ -148,7 +148,7 @@ function Login() {
                                         if(!validaRegister(name, email, dateOfBirth, password)) {
                                             dispatch(register(name, email, dateOfBirth, password));
                                             setTimeout(function() {
-                                                setLoading(false);
+                                                setLoadingReg(false);
                                             }, 700);
                                         } else {
                                             setLoadingReg(false)

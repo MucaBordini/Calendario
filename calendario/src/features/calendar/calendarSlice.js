@@ -118,7 +118,7 @@ export const setActive_event = (eventId) => async (dispatch) => {
         toast.success('Moved event!', { position: toast.POSITION.BOTTOM_RIGHT })
     })
     .catch((err) => {
-        toast.error('Error! Failed to move event', { position: toast.POSITION.BOTTOM_RIGHT })
+        toast.error('Error! Failed to movecd event', { position: toast.POSITION.BOTTOM_RIGHT })
         console.log(err);
     });
 

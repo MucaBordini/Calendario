@@ -174,7 +174,7 @@ function Home() {
           </Form>
           <Button style={{marginBottom: 15}} variant="outline-success" size="lg" onClick={() => {saveEvent()}}>New event +</Button>
         </div>
-            <p>To Do</p>
+            <p>Coming up events</p>
             <Table striped bordered hover variant="dark">
               <thead>
                 <tr>
@@ -224,7 +224,7 @@ function Home() {
                   })}
                 </tbody>
             </Table>
-            <p>Done</p>
+            <p>Done events</p>
             <Table striped bordered hover variant="dark">
               <thead>
                 <tr>
